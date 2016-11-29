@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.optimalbd.mylight.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/lightImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/poweroff"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/app_name" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="1dp"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/lightImageView"
+        android:gravity="center"
+        android:text="@string/app_name"/>
+
+</RelativeLayout>
